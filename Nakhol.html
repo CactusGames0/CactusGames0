@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="C:\Users\ammar\Downloads\CactusLogo-removebg-preview.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+  
+    <meta charset="UTF-8">
+   <!-- Replace multiple meta tags with this single one in head -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Cactus Games</title>
+    <link rel="stylesheet" href="Nakhol.css">
+    <script src="nakhol.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <div class="floating-shapes">
+      <img src="C:\Users\ammar\Downloads\CactusLogo-removebg-preview.webp" class="floating cactus" alt="Cactus">
+      <img src="C:\Users\ammar\Downloads\controllerimage-removebg-preview (1).webp" class="floating controller" alt="Controller">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    </div>
+    
+  <title>Floating Social Icons</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<!-- Preload critical resources -->
+<link rel="preload" href="your-font.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="hero-image.webp" as="image">
+
+<!-- Compressed CSS -->
+<link rel="stylesheet" href="styles.min.css">
+</head>
+<div class="animated-blob"></div>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+<div id="tsparticles"></div>
+<button id="back-to-top" class="back-to-top">↑</button>
+<script>
+  const backToTopBtn = document.getElementById('back-to-top');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+      backToTopBtn.classList.add('show');
+    } else {
+      backToTopBtn.classList.remove('show');
+    }
+  });
+
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<body>
+  <header class="transparent-header">
+    <div class="header-inner">
+      <div class="logo-container">
+        <img src="C:\Users\ammar\Downloads\CactusLogo-removebg-preview.webp" alt="Cactus Games Logo" class="logo" />
+        <span class="logo-text">Cactus Games</span>
+      </div>
+  
+      <nav class="nav-center">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#games">Games</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+      </nav>
+
+
+
+    </div>
+
+
+  </header>
+  
+  
+  
+  
+  
+  
+<!-- Social Media Sidebar -->
+<div class="social-sidebar">
+  <span class="label">Follow Us</span>
+  <ul>
+    <li><a href="https://www.instagram.com/_cactusgames/"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="https://x.com/CactusGames_"><i class="fab fa-x-twitter"></i></a></li>
+    <li><a href="https://www.youtube.com/@Cactus_Gamess"><i class="fab fa-youtube"></i></a></li>
+    <li><a href="https://www.linkedin.com/company/cactusgames/posts/?feedView=all"><i class="fab fa-linkedin-in"></i></a></li>
+    <li><a href="https://discord.gg/DkcQDwxf"><i class="fab fa-discord"></i></a></li>
+  </ul>
+</div>
+
+
+
+<script>
+  function toggleMenu() {
+    document.getElementById("sidebarMenu").classList.toggle("active");
+  }
+</script>
+
+<script>
+  function toggleMenu() {
+    document.getElementById("sidebarMenu").classList.toggle("active");
+    document.getElementById("menuOverlay").classList.toggle("active");
+  }
+</script>
+
+
+<script>
+  const cursor = document.querySelector(".custom-cursor");
+
+  document.addEventListener("mousemove", (e) => {
+    cursor.style.transform = `translate3d(${e.clientX - 10}px, ${e.clientY - 10}px, 0)`;
+  });
+</script>
+
+
+
+
+
+  <section class="hero">
+    <!-- Background Elements -->
+    <div class="glow-effect"></div>
+    <div class="glow-effect"></div>
+    
+    <!-- Content -->
+    <div class="hero-content">
+      <span class="logo-container left-logo-container">
+        <img src="C:\Users\ammar\Downloads\CactusLogo-removebg-preview.webp" alt="Logo" class="logo left-logo" />
+      </span>
+      
+      <div class="text-content">
+        <h2><span class="gradient-text">Cactus Games</span></h2>
+      
+        
+        <p>You Will <span class="heart">❤️</span> Playing with Cactus</p>
+        <a href="#games" class="btn">PLAY NOW !!</a>
+        <span>  </span>
+       
+        
+      </div>
+      
+      
+      <span class="logo-container right-logo-container">
+        <img src="C:\Users\ammar\Downloads\CactusLogo-removebg-preview.webp" alt="Logo" class="logo right-logo" />
+      </span>
+    </div>
+  
+    
+  </section>
+
+    <section id="games"  class="games">
+        <h2>Our Games</h2>
+        <div class="game-grid">
+            <div class="game-card">
+                <img src="C:\Users\ammar\Downloads\image\image\2.webp" alt="Hajwalah & Accidents">
+                <h3>Hajwalah & Accidents</h3>
+                <p>Open-world driving game focused on speed, drifting, and car mastery.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.NardGames.HightWayGame" target="_blank" class="btn">Download Now</a>
+            </div>
+
+            <div class="game-card">
+                <img src="C:\Users\ammar\Downloads\image\image\1.webp" alt="Arabic Supermarket Simulator">
+                <h3>Arabic Supermarket Simulator</h3>
+                <p>Manage and expand your supermarket in an Arab-themed city.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.NardGames.SuperMarketSumulater" target="_blank" class="btn">Download Now</a>
+            </div>
+
+            <div class="game-card">
+                <img src="C:\Users\ammar\Downloads\image\image\4.webp" alt="Fall Guy">
+                <h3>Fall Guy</h3>
+                <p>A physics-based platformer where you navigate thrilling obstacles.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.NardGames.FallGuy" target="_blank" class="btn">Download Now</a>
+            </div>
+
+            <div class="game-card">
+                <img src="C:\Users\ammar\Downloads\image\image\3.webp" alt="Air Fighter">
+                <h3>Air Fighter</h3>
+                <p>Intense aerial combat game where you battle enemy warplanes.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.NardGames.AirFighter" target="_blank" class="btn">Download Now</a>
+            </div>
+
+            <div class="game-card">
+                <img src= "C:\Users\ammar\Downloads\image\image\5.webp"alt="Color Sorting">
+                <h3>Color Sorting – Arabic Puzzle Game</h3>
+                <p>Sort colors, tackle evolving challenges, and test your logic skills.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.NardGames.ColorSort" target="_blank" class="btn">Download Now</a>
+            </div>
+        </div>
+        
+        </div>
+        
+    </section>
+        <section id="about"class="about">
+            <div class="about-grid">
+                <!-- Left Logo -->
+                <img src="C:\Users\ammar\Downloads\CactusLogo-removebg-preview.webp" alt="Left Logo" class="about-logo left-logo">
+        
+                <!-- Box 1: About Nakhla Games + Image -->
+                <div class="about-box">
+                    <h2>About Cactus Games</h2>
+                    <p>Founded in 2024, we’re a passionate team dedicated to creating unforgettable gaming experiences that push creative and technical boundaries.</p>
+                    <img src="C:\Users\ammar\Downloads\me and noir.webp "alt="Cactus Games Studio" class="about-image">
+                </div>
+        
+                <!-- Box 2: Our Story -->
+                <div class="about-box">
+                    <h3>Our Story</h3>
+                    <p>Cactus Games is a pioneering game development studio, blending technical mastery with boundless creativity to craft exceptional gaming experiences..</p>
+                    <p>Our seasoned team, with over five years of expertise, has developed 70+ diverse titles for clients and corporations. </p>
+                    <p>From 2D and 3D to VR, AR, and online multiplayer games, our five original releases have amassed 50,000+ downloads. We are dedicated to delivering world-class games that bring visions to life.</p>
+                </div>
+        
+                <img src="C:\Users\ammar\Downloads\CactusLogo-removebg-preview.webp" alt="Right Logo" class="about-logo right-logo">
+            </div>
+        </section>
+    </section>
+<!-- Stats Section -->
+<section class="modern-stats">
+  <div class="stat-card">
+    <div class="icon">🚀</div>
+    <div class="number" data-target="1">0</div>
+    <p>Years in Business</p>
+  </div>
+  <div class="stat-card">
+    <div class="icon">🎮</div>
+    <div class="number" data-target="5">0</div>
+    <p>Games Released</p>
+  </div>
+  <div class="stat-card">
+    <div class="icon">🏆</div>
+    <div class="number" data-target="2">0</div>
+    <p>Awards Won</p>
+  </div>
+  <div class="stat-card">
+    <div class="icon">😊</div>
+    <div class="number" data-target="50000" data-suffix="+">0</div>
+    <p>Happy Players</p>
+  </div>
+</section>
+<script>
+  const numbers = document.querySelectorAll('.number');
+
+  numbers.forEach(el => {
+    const target = +el.getAttribute('data-target');
+    const suffix = el.getAttribute('data-suffix') || '';
+    let count = 0;
+
+    const update = () => {
+      const increment = Math.ceil(target / 100);
+      if (count < target) {
+        count += increment;
+        el.textContent = count + suffix;
+        setTimeout(update, 20);
+      } else {
+        el.textContent = target + suffix;
+      }
+    };
+
+    update();
+  });
+</script>
+
+
+
+
+
+
+    <section class="technologies">
+        <h2>Technologies We Use</h2>
+        <div class="tech-list">
+            <div class="tech-item">
+                <img src="C:\Users\ammar\Downloads\blake-jarvis-unity-v4-4k.webp" title="unity icons">
+                <span>Unity</span>
+            </div>
+            <div class="tech-item">
+                <img src="file:///C:/Users/ammar/Downloads/blender-2.svg " alt="Blender">
+                <span>Blender</span>
+            </div>
+            <div class="tech-item">
+                <img src="file:///C:/Users/ammar/Downloads/c--4.svg" alt="C#">
+                <span>C#</span>
+            </div>
+            <div class="tech-item">
+                <img src="C:\Users\ammar\Downloads\game-console.png" title="gaming icons">
+                <span>Game Development</span>
+            </div>
+        </div>
+    </section>
+  
+ 
+
+    
+    <section id="about" class="team">
+        <h2 class="glow-text">Meet Our Team</h2>
+        <div class="team-container">
+          <!-- Team Member Template -->
+          <div class="team-member">
+            <div class="team-member-image">
+              <img src="C:\Users\ammar\Downloads\Eyadoo.webp" alt="Eyad Abuzeinah">
+            </div>
+            <h3>Eyad Abuzeinah</h3>
+            <p class="role">CEO, Senior Game Developer</p>
+            <p>6+ years in Unity & C#, expert in multiplayer & VR games, design, and rendering.</p>
+            <a href="https://www.linkedin.com/in/eyad-abuzeinah-5bb121310/" target="_blank" class="linkedin-icon">
+              <img src="C:\Users\ammar\Downloads\linkedin.webp" alt="LinkedIn">
+            </a>
+          </div>
+      
+          <div class="team-member">
+            <div class="team-member-image">
+              <img src="C:\Users\ammar\Downloads\me (1).webp" alt="Ammar Al-Fawarah">
+            </div>
+            <h3>Ammar Al-Fawarah</h3>
+            <p class="role">Game Developer</p>
+            <p>1+ years in Unity & C#, specializing in 3D/2D games and game reskin.</p>
+            <a href="https://www.linkedin.com/in/ammar-fares-34b912311/" target="_blank" class="linkedin-icon">
+              <img src="C:\Users\ammar\Downloads\linkedin.webp" alt="LinkedIn">
+            </a>
+          </div>
+      
+          <div class="team-member">
+            <div class="team-member-image">
+              <img src="C:\Users\ammar\Downloads\noir.webp" alt="Nour Aldein Yousef">
+            </div>
+            <h3>Nour Aldein Yousef</h3>
+            <p class="role">3D Model Designer</p>
+            <p>2+ years in Blender & Unity, animation, and game development.</p>
+            <a href="https://www.linkedin.com/in/nour-aldein-yousef-05962028b/" target="_blank" class="linkedin-icon">
+              <img src="C:\Users\ammar\Downloads\linkedin.webp"alt="LinkedIn">
+            </a>
+          </div>
+      
+          <div class="team-member">
+            <div class="team-member-image">
+              <img src="C:\Users\ammar\Downloads\Batool.webp" alt="Batool Daraj">
+            </div>
+            <h3>Batool Daraj</h3>
+            <p class="role">Lead Graphic Designer</p>
+            <p>Shaping Cactus Games’ identity with creative and captivating visuals.</p>
+            <a href="https://www.linkedin.com/in/batool-adel-a8a36934b/" target="_blank" class="linkedin-icon">
+              <img src="C:\Users\ammar\Downloads\linkedin.webp" alt="LinkedIn">
+            </a>
+          </div>
+      
+          <div class="team-member">
+            <div class="team-member-image">
+              <img src="C:\Users\ammar\OneDrive\Attachments\Desktop\Haider.jpg" alt="Aya Alkhoura">
+            </div>
+            <h3> Haider Hammo </h3>
+            <p class="role">business Development</p>
+            <p>2+ years of small and medium business management, agent for several Chinese, German and European brands.</p>
+            <a href="https://www.linkedin.com/in/aya-alkhoura-293914336/" target="_blank" class="linkedin-icon">
+              
+            </a>
+          </div>
+        </div>
+      </section>
+    <!-- Modal Overlay -->
+<div id="teamModal" class="team-modal">
+  <div class="team-modal-content">
+    <span class="close-modal">&times;</span>
+    <h2 style="color: #aeff00;">Choose a Team</h2>
+    <div class="team-cards-container">
+      <!-- Social Media Team Card -->
+      <div class="team-card">
+        <h3>Social Media Team</h3>
+        <p>Explore the creatives shaping our public image and content.</p>
+        <a href="https://cactus-mediateam.carrd.co/#start" class="team-link-btn" target="_blank">View Team</a>
+      </div>
+
+      <!-- Business & Database Team Card -->
+      <div class="team-card">
+        <h3>Business & Database Team</h3>
+        <p>Meet the strategists driving growth and managing our data.</p>
+        <a href="https://business-and-databas-teams.carrd.co" class="team-link-btn" target="_blank">View Team</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const modal = document.getElementById("teamModal");
+  const closeBtn = document.querySelector(".close-modal");
+  const viewAllBtn = document.getElementById("viewAllBtn");
+
+  const modalImg = document.querySelector(".modal-img");
+  const modalName = document.querySelector(".modal-name");
+  const modalRole = document.querySelector(".modal-role");
+  const modalDesc = document.querySelector(".modal-description");
+  const modalLink = document.getElementById("modalLink");
+
+  // You can make this dynamic later — here’s a sample person
+  const teamData = {
+    name: "Eyad Abuzeinah",
+    role: "CEO, Senior Game Developer",
+    img: "Eyadoo.webp",
+    desc: "6+ years in Unity & C#, expert in multiplayer & VR games, design, and rendering.",
+    link: "https://www.linkedin.com/in/eyad-abuzeinah-5bb121310/"
+  };
+
+  viewAllBtn.addEventListener("click", () => {
+    modal.style.display = "block";
+    modalName.textContent = teamData.name;
+    modalRole.textContent = teamData.role;
+    modalImg.src = teamData.img;
+    modalDesc.textContent = teamData.desc;
+    modalLink.href = teamData.link;
+  });
+
+  closeBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+  });
+
+  window.addEventListener("click", (e) => {
+    if (e.target == modal) {
+      modal.style.display = "none";
+    }
+  });
+</script>
+
+<!-- Floating Chat Button -->
+<div class="chat-toggle" onclick="toggleChat()">
+  💬
+</div>
+
+<!-- Hidden Chat Panel -->
+<div class="chat-panel" id="chatPanel">
+  <div class="chat-question" onclick="showAnswer(1)">
+    1 — What does Cactus help with?
+  </div>
+  <div class="chat-question" onclick="showAnswer(2)">
+    2 — Collaboration?
+  </div>
+  <div id="chatAnswer" class="chat-answer"></div>
+</div>
+
+      
+      
+    <section  id="contact" class="contact">
+        <div class="contact-box">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <p><strong>Email:</strong> Cactusgames0@gmail.com</p>
+                    <p><strong>Phone:</strong> 00962799648138</p>
+                    <p><strong>Address:</strong> King Hussein Business Park, Building 23, King Abdullah II Street,, Amman</p>
+                </div>
+                
+    
+                <!-- Contact Form -->
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://www.youtube.com/@Nakhla_Games/featured" target="_blank" class="social-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+                  </a>
+                <a href="https://www.instagram.com/nakhlagames/" target="_blank" class="social-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/company/nakhla-games/posts/?feedView=all" target="_blank" class="social-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                </a>
+            </div>
+    
+            <!-- Made with Love -->
+            <p class="made-with-love">
+                Made with <span class="heart">❤️</span> by Cactus Games
+            </p>
+        </div>
+        <div class="signature">Ammar</div>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    </footer>
+</body>
+</html>
+<script>
+  tsParticles.load("tsparticles", {
+    fullScreen: { enable: false },
+    background: {
+      color: "#0D0D0D"
+    },
+    particles: {
+      number: {
+        value: 70,
+        density: {
+          enable: true,
+          area: 800
+        }
+      },
+      color: { value: ["#80AF81", "#508D4E", "#D6EFD8"] },
+      shape: {
+        type: "circle"
+      },
+      opacity: {
+        value: 0.6
+      },
+      size: {
+        value: { min: 1, max: 4 }
+      },
+      move: {
+        enable: true,
+        speed: 0.8,
+        direction: "none",
+        outModes: "out"
+      }
+    },
+    interactivity: {
+      events: {
+        onHover: { enable: true, mode: "repulse" },
+        resize: true
+      },
+      modes: {
+        repulse: { distance: 100, duration: 0.4 }
+      }
+    },
+    detectRetina: true
+  });
+  </script>
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+  <script>
+    const dot = document.querySelector(".cursor-dot");
+    const outline = document.querySelector(".cursor-outline");
+  
+    let x = 0, y = 0; // current mouse
+    let outlineX = 0, outlineY = 0; // current follower
+  
+    document.addEventListener("mousemove", e => {
+      x = e.clientX;
+      y = e.clientY;
+  
+      dot.style.left = `${x}px`;
+      dot.style.top = `${y}px`;
+    });
+  
+    function animate() {
+      outlineX += (x - outlineX) * 0.1;
+      outlineY += (y - outlineY) * 0.1;
+  
+      outline.style.left = `${outlineX}px`;
+      outline.style.top = `${outlineY}px`;
+  
+      requestAnimationFrame(animate);
+    }
+  
+    animate();
+  </script>
+<script>
+  let lastScrollTop = 0;
+  const header = document.querySelector('.transparent-header');
+
+  window.addEventListener('scroll', () => {
+    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop && currentScroll > 50) {
+      // Scroll Down
+      header.classList.add('hide');
+    } else {
+      // Scroll Up
+      header.classList.remove('hide');
+    }
+
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  });
+</script>
+<script>
+  const chatToggle = document.getElementById("chatToggle");
+  const chatBox = document.getElementById("chatBox");
+  const chatResponse = document.getElementById("chatResponse");
+  const answers = {
+    q1: "Carry out any project related to the Cactus's specialized tasks with professionalism and mutual satisfaction.",
+    q2: "With pleasure, Cactus will certainly love this idea. If you really want to cooperate, contact us and we will respond to you as soon as possible."
+  };
+
+  chatToggle.addEventListener("click", () => {
+    chatBox.classList.toggle("hidden");
+    chatResponse.textContent = "";
+  });
+
+  document.querySelectorAll(".chat-bubble").forEach(bubble => {
+    bubble.addEventListener("click", () => {
+      const key = bubble.getAttribute("data-question");
+      chatResponse.textContent = answers[key];
+    });
+  });
+</script>
+<script>
+  function toggleChat() {
+    const panel = document.getElementById('chatPanel');
+    panel.style.display = panel.style.display === 'flex' ? 'none' : 'flex';
+  }
+
+  function showAnswer(option) {
+    const answerBox = document.getElementById('chatAnswer');
+    answerBox.style.display = 'block';
+    answerBox.textContent =
+      option === 1
+        ? "Carry out any project related to the Cactus's specialized tasks with professionalism and mutual satisfaction."
+        : "With pleasure, Cactus will certainly love this idea. If you really want to cooperate, contact us and we will respond to you as soon as possible.";
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
